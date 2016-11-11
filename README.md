@@ -1,4 +1,5 @@
 # SkiHillHCI
 CPSC 481 HCI School Project
-IT'S WORKING AGAIN
-Test Push
+
+Created project on Android Studio
+Uploaded to GIT using AS
