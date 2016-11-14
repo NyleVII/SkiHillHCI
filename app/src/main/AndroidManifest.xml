@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RentalScreenActivity" />
-        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".FoodMenuActivity"></activity>
     </application>
 
 </manifest>
