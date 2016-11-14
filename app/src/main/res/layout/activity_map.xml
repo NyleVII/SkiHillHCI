@@ -32,7 +32,8 @@
         android:id="@+id/directionsButton" />
 
     <ToggleButton
-        android:text="Friends"
+        android:textOn="Friends"
+        android:textOff="Friends"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/toggleFriends"
@@ -42,7 +43,8 @@
         android:layout_alignParentEnd="true" />
 
     <ToggleButton
-        android:text="Conditions"
+        android:textOn="Conditions"
+        android:textOff="Conditions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/directionsButton"
