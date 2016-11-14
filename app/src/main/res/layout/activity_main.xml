@@ -43,4 +43,29 @@
         android:id="@+id/rentalsButton"
         android:onClick="openRentals" />
 
+    <Button
+        android:text="Food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rentalsButton"
+        android:layout_alignRight="@+id/rentalsButton"
+        android:layout_alignEnd="@+id/rentalsButton"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button2"
+        android:onClick="openFoodMenu" />
+
+    <Button
+        android:text="@string/EMERGENCY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:id="@+id/button3"
+        tools:text="EMERGENCY"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:onClick="openEmergency" />
+
 </RelativeLayout>

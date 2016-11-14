@@ -24,4 +24,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RentalScreenActivity.class);
         startActivity(intent);
     }
+
+    public void openEmergency(View view){
+
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+
+    public void openFoodMenu(View view){
+
+        Intent intent = new Intent(this, FoodMenuActivity.class);
+        startActivity(intent);
+    }
 }
