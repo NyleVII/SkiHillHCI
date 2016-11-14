@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openEmergency(View view){
 
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(this, EmergencyActivity.class);
         startActivity(intent);
     }
 
