@@ -47,7 +47,8 @@
         android:textOff="Conditions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/toggleConditions"
+        android:layout_alignBaseline="@+id/directionsButton"
         android:layout_alignBottom="@+id/directionsButton"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/toggleConditions" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
