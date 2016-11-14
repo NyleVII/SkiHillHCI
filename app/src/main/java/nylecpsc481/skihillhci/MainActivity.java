@@ -12,10 +12,4 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-    /*Called when MAP button is pressed. Moves to MAP activity*/
-    public void openMap(View view){
-
-        Intent intent =
-    }
 }
