@@ -12,9 +12,22 @@ public class FoodMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food_menu);
 
-        Spinner dropdown = (Spinner)findViewById(R.id.mainMealSpinner);
-        String[] items = new String[]{"Burger", "Cheese Burger", "Bacon Wrap", "Fried Chicken"};
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, items);
-        dropdown.setAdapter(adapter);
+        /*Main Spinner the array is the content*/
+        Spinner mainSpinner = (Spinner)findViewById(R.id.mainMealSpinner);
+        String[] mains = new String[]{"Burger", "Cheese Burger", "Bacon Wrap", "Fried Chicken"};
+        ArrayAdapter<String> mainsAdapt = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, mains);
+        mainSpinner.setAdapter(mainsAdapt);
+
+        /*Side spinner*/
+        Spinner sidesSpinner = (Spinner)findViewById(R.id.sidesMealSpinner);
+        String[] sides = new String[]{"Fries", "Caesar Salad", "House Salad", "Soup"};
+        ArrayAdapter<String> sidesAdapt = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, sides);
+        sidesSpinner.setAdapter(sidesAdapt);
+
+        /*Drinks spinner*/
+        Spinner drinkSpinner = (Spinner)findViewById(R.id.drinkMealSpinner);
+        String[] drinks = new String[]{"PEPSI", "PEPSI", "PEPSI", "ARE YOU HAPPY STEVE"};
+        ArrayAdapter<String> drinksAdapt = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, drinks);
+        drinkSpinner.setAdapter(drinksAdapt);
     }
 }

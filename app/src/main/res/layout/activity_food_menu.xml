@@ -18,7 +18,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="23dp"
-        android:id="@+id/mainMealText" />
+        android:id="@+id/mainMealText"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -29,4 +32,43 @@
         android:layout_marginLeft="22dp"
         android:layout_marginStart="22dp"
         android:id="@+id/mainMealSpinner" />
+
+    <TextView
+        android:text="SIDES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainMealSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:id="@+id/sidesText"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sidesText"
+        android:layout_alignLeft="@+id/mainMealSpinner"
+        android:layout_alignStart="@+id/mainMealSpinner"
+        android:id="@+id/sidesMealSpinner" />
+
+    <TextView
+        android:text="DRINKS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sidesMealSpinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="51dp"
+        android:id="@+id/drinksText" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/drinksText"
+        android:layout_alignLeft="@+id/sidesMealSpinner"
+        android:layout_alignStart="@+id/sidesMealSpinner"
+        android:id="@+id/drinkMealSpinner" />
+
 </RelativeLayout>
