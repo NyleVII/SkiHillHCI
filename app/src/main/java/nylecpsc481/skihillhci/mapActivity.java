@@ -3,7 +3,7 @@ package nylecpsc481.skihillhci;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class mapActivity extends AppCompatActivity {
+public class MapActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

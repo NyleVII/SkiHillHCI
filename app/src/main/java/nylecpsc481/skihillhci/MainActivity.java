@@ -15,7 +15,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void openMap(View view){
 
-        Intent intent = new Intent(this, mapActivity.class);
+        Intent intent = new Intent(this, MapActivity.class);
+        startActivity(intent);
+    }
+
+    public void openRentals(View view){
+
+        Intent intent = new Intent(this, RentalScreenActivity.class);
         startActivity(intent);
     }
 }
