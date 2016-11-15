@@ -61,6 +61,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="51dp"
+        android:textStyle="normal|bold"
         android:id="@+id/drinksText" />
 
     <Spinner
