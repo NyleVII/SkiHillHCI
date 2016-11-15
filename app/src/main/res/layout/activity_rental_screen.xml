@@ -40,53 +40,15 @@
         android:layout_marginTop="23dp"
         android:id="@+id/textView2" />
 
-    <NumberPicker
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:id="@+id/numberPicker3"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_marginTop="10dp" />
-
-    <TextView
-        android:text="Snowboards:"
+    <DatePicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView10"
-        android:paddingBottom="10dp"
-        android:layout_alignBaseline="@+id/numberPicker11"
-        android:layout_alignBottom="@+id/numberPicker11"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
-
-    <NumberPicker
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="42dp"
-        android:id="@+id/numberPicker11"
-        android:layout_below="@+id/textView2"
-        android:layout_alignLeft="@+id/numberPicker3"
-        android:layout_alignStart="@+id/numberPicker3" />
-
-    <NumberPicker
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/textView10"
-        android:layout_alignLeft="@+id/numberPicker11"
-        android:layout_alignStart="@+id/numberPicker11"
-        android:layout_marginTop="28dp"
-        android:id="@+id/numberPicker12" />
-
-    <TextView
-        android:text="Helmets:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingBottom="10dp"
-        android:layout_alignBottom="@+id/numberPicker12"
-        android:layout_alignRight="@+id/textView10"
-        android:layout_alignEnd="@+id/textView10"
-        android:id="@+id/textView11" />
+        android:id="@+id/datePicker2"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
 
     <TextView
         android:text="Choose a date:"
@@ -94,18 +56,51 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView12"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
-        android:layout_below="@+id/numberPicker12"
-        android:layout_toLeftOf="@+id/button"
-        android:layout_toStartOf="@+id/button" />
+        android:layout_above="@+id/datePicker2"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
 
-    <DatePicker
+    <TextView
+        android:text="Helmets:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/datePicker2"
-        android:datePickerMode="spinner"
-        android:calendarViewShown="false"
-        android:layout_below="@+id/textView12"
-        android:layout_alignLeft="@+id/textView11"
-        android:layout_alignStart="@+id/textView11" />
+        android:id="@+id/textView11"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <TextView
+        android:text="Snowboards:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/skiSpinner"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"/>
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/snowboardSpinner"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignLeft="@+id/skiSpinner"
+        android:layout_alignStart="@+id/skiSpinner" />
+
+    <Spinner
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/helmetSpinner"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignLeft="@+id/snowboardSpinner"
+        android:layout_alignStart="@+id/snowboardSpinner" />
 
 </RelativeLayout>

@@ -26,7 +26,7 @@ public class FoodMenuActivity extends AppCompatActivity {
 
         /*Drinks spinner*/
         Spinner drinkSpinner = (Spinner)findViewById(R.id.drinkMealSpinner);
-        String[] drinks = new String[]{"PEPSI", "PEPSI", "PEPSI", "ARE YOU HAPPY STEVE"};
+        String[] drinks = new String[]{"PEPSI", "PEPSI", "PEPSI", "ARE YOU HAPPY STEVE", "YES I AM!"};
         ArrayAdapter<String> drinksAdapt = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, drinks);
         drinkSpinner.setAdapter(drinksAdapt);
     }
