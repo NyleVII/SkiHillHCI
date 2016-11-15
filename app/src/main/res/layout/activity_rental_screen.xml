@@ -38,7 +38,8 @@
         android:layout_marginRight="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginTop="23dp"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView2"
+        android:textAllCaps="false" />
 
     <DatePicker
         android:layout_width="wrap_content"
@@ -68,7 +69,8 @@
         android:layout_marginTop="35dp"
         android:layout_below="@+id/textView10"
         android:layout_alignRight="@+id/textView10"
-        android:layout_alignEnd="@+id/textView10" />
+        android:layout_alignEnd="@+id/textView10"
+        android:textAllCaps="false" />
 
     <TextView
         android:text="Snowboards:"
@@ -78,29 +80,31 @@
         android:layout_marginTop="32dp"
         android:layout_below="@+id/textView2"
         android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
+        android:layout_alignEnd="@+id/textView2"
+        android:textAllCaps="false" />
 
     <Spinner
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:id="@+id/skiSpinner"
         android:layout_alignTop="@+id/textView2"
-        android:layout_toRightOf="@+id/textView2"/>
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
 
     <Spinner
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:id="@+id/snowboardSpinner"
         android:layout_alignTop="@+id/textView10"
         android:layout_alignLeft="@+id/skiSpinner"
-        android:layout_alignStart="@+id/skiSpinner" />
+        android:layout_alignStart="@+id/skiSpinner"
+        android:id="@+id/snowboardSpinner" />
 
     <Spinner
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:id="@+id/helmetSpinner"
         android:layout_alignTop="@+id/textView11"
         android:layout_alignLeft="@+id/snowboardSpinner"
-        android:layout_alignStart="@+id/snowboardSpinner" />
+        android:layout_alignStart="@+id/snowboardSpinner"
+        android:id="@+id/helmetSpinner" />
 
 </RelativeLayout>
