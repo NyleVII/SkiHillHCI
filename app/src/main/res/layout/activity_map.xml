@@ -14,22 +14,23 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/sunshine_map"
+        app:srcCompat="@drawable/sunshine_tall"
         android:id="@+id/imageView"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="84dp" />
 
-    <Button
-        android:text="Directions"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sunshine_conditions"
+        android:id="@+id/conditionsImage"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="59dp"
-        android:id="@+id/directionsButton" />
+        android:layout_marginBottom="84dp"
+        android:visibility="invisible"/>
 
     <ToggleButton
         android:textOn="Friends"
@@ -50,5 +51,16 @@
         android:id="@+id/toggleConditions"
         android:layout_alignBaseline="@+id/directionsButton"
         android:layout_alignBottom="@+id/directionsButton"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:checked="false" />
+
+    <Button
+        android:text="Directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:id="@+id/directionsButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
