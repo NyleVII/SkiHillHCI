@@ -18,7 +18,8 @@
         <activity android:name=".RentalScreenActivity" />
         <activity android:name=".MapActivity" />
         <activity android:name=".FoodMenuActivity" />
-        <activity android:name=".EmergencyActivity"></activity>
+        <activity android:name=".EmergencyActivity" />
+        <activity android:name=".RunActivity"></activity>
     </application>
 
 </manifest>
