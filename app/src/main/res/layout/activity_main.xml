@@ -28,22 +28,21 @@
         android:text="MAP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="39dp"
-        android:layout_marginStart="39dp"
-        android:id="@+id/button"
+        android:id="@+id/mapButton"
         android:onClick="openMap"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
         android:layout_above="@+id/rentalsButton"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="21dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="Food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
+        android:id="@+id/foodButton"
         android:onClick="openFoodMenu"
-        android:layout_marginBottom="101dp"
+        android:layout_marginBottom="149dp"
         android:layout_above="@+id/button3"
         android:layout_alignLeft="@+id/rentalsButton"
         android:layout_alignStart="@+id/rentalsButton" />
@@ -54,9 +53,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/rentalsButton"
         android:onClick="openRentals"
-        android:layout_marginBottom="24dp"
-        android:layout_above="@+id/button2"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_above="@+id/foodButton"
+        android:layout_alignLeft="@+id/mapButton"
+        android:layout_alignStart="@+id/mapButton" />
+
+    <Button
+        android:text="Lift Tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LiftTicketsButton"
+        android:onClick="openLiftTickets"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/rentalsButton"
+        android:layout_alignLeft="@+id/foodButton"
+        android:layout_alignStart="@+id/foodButton" />
 
 </RelativeLayout>

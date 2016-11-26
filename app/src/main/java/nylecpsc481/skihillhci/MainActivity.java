@@ -36,4 +36,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FoodMenuActivity.class);
         startActivity(intent);
     }
+
+    public void openLiftTickets(View view){
+
+        Intent intent = new Intent(this, LiftTicketActivity.class);
+        startActivity(intent);
+    }
 }
