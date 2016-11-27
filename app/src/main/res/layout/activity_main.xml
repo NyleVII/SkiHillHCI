@@ -26,27 +26,6 @@
         android:onClick="openEmergency" />
 
     <Button
-        android:text="Food"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/foodButton"
-        android:onClick="openFoodMenu"
-        android:layout_below="@+id/rentalsButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Lift Tickets"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/LiftTicketsButton"
-        android:onClick="openLiftTickets"
-        android:layout_below="@+id/rentalsButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="50dp" />
-
-    <Button
         android:text="RENTALS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,5 +76,15 @@
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
         android:onClick="directionsToHill"/>
+
+    <Button
+        android:text="Lift Tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LiftTicketsButton"
+        android:onClick="openLiftTickets"
+        android:layout_below="@+id/rentalsButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

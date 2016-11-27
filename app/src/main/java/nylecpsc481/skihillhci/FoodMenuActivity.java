@@ -14,7 +14,7 @@ public class FoodMenuActivity extends AppCompatActivity {
 
         /*Main Spinner the array is the content*/
         Spinner mainSpinner = (Spinner)findViewById(R.id.mainMealSpinner);
-        String[] mains = new String[]{"Burger", "Cheese Burger", "Bacon Wrap", "Fried Chicken"};
+        String[] mains = new String[]{"Burger", "Cheese Burger", "Bacon Wrap", "Chicken Fingers", "Pizza", "Pasta", "Hot Dogs", "Pho"};
         ArrayAdapter<String> mainsAdapt = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, mains);
         mainSpinner.setAdapter(mainsAdapt);
 
