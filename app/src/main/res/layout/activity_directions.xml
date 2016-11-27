@@ -52,7 +52,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/directions_calgary_to_sunshine"
+        app:srcCompat="@drawable/directions"
         android:id="@+id/imageView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
