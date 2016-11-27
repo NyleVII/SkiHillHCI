@@ -10,15 +10,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="nylecpsc481.skihillhci.RunActivity">
 
-    <TextView
-        android:text="This is the Run Activity"
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Conditions:"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textStyle="normal|bold"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="76dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="187dp"
-        android:id="@+id/textView9" />
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Good"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText"
+        android:textColor="@android:color/holo_green_light" />
 </RelativeLayout>
