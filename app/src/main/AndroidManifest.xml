@@ -23,7 +23,8 @@
         <activity android:name=".LiftTicketActivity" />
         <activity android:name=".ChangeHillActivity" />
         <activity android:name=".DirectionsActivity" />
-        <activity android:name=".LodgeActivity"></activity>
+        <activity android:name=".LodgeActivity" />
+        <activity android:name=".CancelledEmergencyActivity"></activity>
     </application>
 
 </manifest>
