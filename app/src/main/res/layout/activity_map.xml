@@ -75,44 +75,41 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+    <TextView
         android:text="Good"
-        android:ems="10"
-        android:id="@+id/editText3"
-        android:textStyle="normal|bold"
-        android:textColor="#00ff06"
-        android:layout_below="@+id/conditionsImage"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Hazards"
-        android:ems="10"
-        android:id="@+id/editText4"
-        android:textStyle="normal|bold"
-        android:textColor="#fff600"
-        android:layout_alignBottom="@+id/toggleConditions"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Closed"
-        android:ems="10"
-        android:id="@+id/editText5"
-        android:textStyle="normal|bold"
-        android:textColor="#aa0000"
-        android:layout_below="@+id/editText3"
+        android:layout_below="@+id/mapBottom"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp" />
+        android:id="@+id/textView9"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="#00ff06"/>
+
+    <TextView
+        android:text="Hazards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#fff600"/>
+
+    <TextView
+        android:text="Closed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView31"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="#aa0000"/>
 
 </RelativeLayout>
