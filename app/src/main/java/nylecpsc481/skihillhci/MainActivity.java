@@ -42,4 +42,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LiftTicketActivity.class);
         startActivity(intent);
     }
+
+    public void changeHill(View view){
+
+        Intent intent = new Intent(this, ChangeHillActivity.class);
+        startActivity(intent);
+    }
 }

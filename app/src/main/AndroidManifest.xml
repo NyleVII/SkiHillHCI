@@ -20,7 +20,8 @@
         <activity android:name=".FoodMenuActivity" />
         <activity android:name=".EmergencyActivity" />
         <activity android:name=".RunActivity" />
-        <activity android:name=".LiftTicketActivity"></activity>
+        <activity android:name=".LiftTicketActivity" />
+        <activity android:name=".ChangeHillActivity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -25,37 +26,14 @@
         android:onClick="openEmergency" />
 
     <Button
-        android:text="MAP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/mapButton"
-        android:onClick="openMap"
-        android:layout_marginLeft="49dp"
-        android:layout_marginStart="49dp"
-        android:layout_above="@+id/rentalsButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="Food"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/foodButton"
         android:onClick="openFoodMenu"
-        android:layout_marginBottom="149dp"
-        android:layout_above="@+id/button3"
-        android:layout_alignLeft="@+id/rentalsButton"
-        android:layout_alignStart="@+id/rentalsButton" />
-
-    <Button
-        android:text="RENTALS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/rentalsButton"
-        android:onClick="openRentals"
-        android:layout_above="@+id/foodButton"
-        android:layout_alignLeft="@+id/mapButton"
-        android:layout_alignStart="@+id/mapButton" />
+        android:layout_below="@+id/rentalsButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="Lift Tickets"
@@ -63,9 +41,60 @@
         android:layout_height="wrap_content"
         android:id="@+id/LiftTicketsButton"
         android:onClick="openLiftTickets"
-        android:layout_marginTop="49dp"
         android:layout_below="@+id/rentalsButton"
-        android:layout_alignLeft="@+id/foodButton"
-        android:layout_alignStart="@+id/foodButton" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:text="RENTALS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rentalsButton"
+        android:onClick="openRentals"
+        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/sunshine_tall"
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_alignTop="@+id/rentalsButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="MAP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapButton"
+        android:onClick="openMap"
+        android:layout_below="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:text="Change Hill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/changeHillButton"
+        android:onClick="changeHill"/>
+
+    <Button
+        android:text="Directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/directionsButton"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
 
 </RelativeLayout>

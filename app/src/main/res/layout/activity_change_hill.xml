@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_hill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nylecpsc481.skihillhci.ChangeHillActivity">
+
+    <TextView
+        android:text="Search Hills:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Hills near your location:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/hillSearchBox"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <SearchView
+        android:id="@+id/hillSearchBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Canada Olympic Park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/copButton" />
+
+    <TextView
+        android:text="8.4 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copDistance"
+        android:layout_alignBaseline="@+id/copButton"
+        android:layout_alignBottom="@+id/copButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/copButton"
+        android:layout_toEndOf="@+id/copButton"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:text="Nakiska"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/copButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/nakiskaButton" />
+
+    <TextView
+        android:text="78.3 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nakiskaDistance"
+        android:textAlignment="textEnd"
+        android:layout_alignBaseline="@+id/nakiskaButton"
+        android:layout_alignBottom="@+id/nakiskaButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Mount Norquay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nakiskaButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/norquayButton" />
+
+    <TextView
+        android:text="113.3 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/norquayDistance"
+        android:layout_alignBaseline="@+id/norquayButton"
+        android:layout_alignBottom="@+id/norquayButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:text="Sunshine Village"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/sunshineButton" />
+
+    <TextView
+        android:text="122.8 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sunshineDistance"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/norquayDistance"
+        android:layout_alignStart="@+id/norquayDistance" />
+
+    <Button
+        android:text="Lake Louise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunshineButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lakeLouiseButton" />
+
+    <TextView
+        android:text="159.0 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lakeLouiseDistance"
+        android:layout_alignBaseline="@+id/lakeLouiseButton"
+        android:layout_alignBottom="@+id/lakeLouiseButton"
+        android:layout_alignLeft="@+id/sunshineDistance"
+        android:layout_alignStart="@+id/sunshineDistance" />
+
+    <Button
+        android:text="Panorama Mountain Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lakeLouiseButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/panoramaButton" />
+
+    <TextView
+        android:text="163.7 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/panoramaDistance"
+        android:layout_alignBaseline="@+id/panoramaButton"
+        android:layout_alignBottom="@+id/panoramaButton"
+        android:layout_alignLeft="@+id/lakeLouiseDistance"
+        android:layout_alignStart="@+id/lakeLouiseDistance" />
+
+    <Button
+        android:text="Fernie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/panoramaButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/fernieButton" />
+
+    <TextView
+        android:text="299.0 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fernieDistance"
+        android:layout_alignBaseline="@+id/fernieButton"
+        android:layout_alignBottom="@+id/fernieButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Kimberley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fernieButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/kimberleyButton" />
+
+    <TextView
+        android:text="387.0 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kimberleyDistance"
+        android:layout_alignBaseline="@+id/kimberleyButton"
+        android:layout_alignBottom="@+id/kimberleyButton"
+        android:layout_alignLeft="@+id/fernieDistance"
+        android:layout_alignStart="@+id/fernieDistance" />
+
+</RelativeLayout>
