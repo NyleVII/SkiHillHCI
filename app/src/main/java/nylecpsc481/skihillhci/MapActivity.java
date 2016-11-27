@@ -54,5 +54,10 @@ public class MapActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openLodge(View view){
+
+        Intent intent = new Intent(this, LodgeActivity.class);
+        startActivity(intent);
+    }
 
 }

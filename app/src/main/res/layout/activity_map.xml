@@ -14,16 +14,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/sunshine_tall"
-        android:id="@+id/mapImage"
-        android:layout_above="@+id/toggleFriends"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="10dp" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/sunshine_conditions"
         android:id="@+id/conditionsImage"
         android:layout_alignParentBottom="true"
@@ -75,18 +65,26 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <ImageButton
-        android:layout_width="25dp"
-        app:srcCompat="@drawable/run_button"
-        android:id="@+id/imageButton"
-        android:background="@android:color/transparent"
-        android:onClick="openRun"
-        android:layout_marginTop="89dp"
-        android:layout_height="75dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginStart="21dp"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/toggleConditions"
-        android:layout_toEndOf="@+id/toggleConditions" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/map_bottom"
+        android:id="@+id/mapBottom"
+        android:layout_marginBottom="25dp"
+        android:layout_alignBottom="@+id/toggleFriends"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="openLodge"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/map_top"
+        android:id="@+id/mapTop"
+        android:layout_marginBottom="161dp"
+        android:layout_above="@+id/toggleFriends"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="openRun"/>
 
 </RelativeLayout>
