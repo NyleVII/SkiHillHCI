@@ -48,4 +48,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ChangeHillActivity.class);
         startActivity(intent);
     }
+
+    public void directionsToHill(View view){
+
+        Intent intent = new Intent(this, DirectionsActivity.class);
+        startActivity(intent);
+    }
 }

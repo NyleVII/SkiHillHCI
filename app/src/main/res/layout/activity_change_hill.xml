@@ -156,7 +156,7 @@
         android:layout_alignStart="@+id/lakeLouiseDistance" />
 
     <Button
-        android:text="Fernie"
+        android:text="Fernie Alpine Resort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/panoramaButton"
@@ -175,7 +175,7 @@
         android:layout_alignParentEnd="true" />
 
     <Button
-        android:text="Kimberley"
+        android:text="Kimberley Alpine Resort"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/fernieButton"

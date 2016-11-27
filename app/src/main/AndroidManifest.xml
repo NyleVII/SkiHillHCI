@@ -21,7 +21,8 @@
         <activity android:name=".EmergencyActivity" />
         <activity android:name=".RunActivity" />
         <activity android:name=".LiftTicketActivity" />
-        <activity android:name=".ChangeHillActivity"></activity>
+        <activity android:name=".ChangeHillActivity" />
+        <activity android:name=".DirectionsActivity"></activity>
     </application>
 
 </manifest>
