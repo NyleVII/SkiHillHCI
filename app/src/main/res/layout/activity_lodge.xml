@@ -21,7 +21,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="24sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <TextView
         android:text="32 seats remaining (Last Updated 7 minutes ago)"
@@ -30,7 +31,8 @@
         android:layout_below="@+id/textView23"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView24" />
+        android:id="@+id/textView24"
+        android:textColor="#000000" />
 
     <TextView
         android:text="8:00am - 6:00pm Mon-Fri"
@@ -39,7 +41,8 @@
         android:layout_below="@+id/textView25"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView26" />
+        android:id="@+id/textView26"
+        android:textColor="#000000" />
 
     <TextView
         android:text="8:00am - 9:00pm Sat-Sun"
@@ -48,7 +51,8 @@
         android:layout_below="@+id/textView26"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView27" />
+        android:id="@+id/textView27"
+        android:textColor="#000000" />
 
     <TextView
         android:text="Current Available Seating:"
@@ -60,7 +64,8 @@
         android:textStyle="normal|bold"
         android:layout_below="@+id/textView27"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <TextView
         android:text="Food available at:"
@@ -72,7 +77,8 @@
         android:layout_marginTop="21dp"
         android:id="@+id/textView28"
         android:textSize="18sp"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <Button
         android:text="Order Food"
@@ -92,7 +98,8 @@
         android:textStyle="normal|bold"
         android:layout_below="@+id/LodgeName"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000000" />
 
     <ImageView
         android:layout_width="wrap_content"

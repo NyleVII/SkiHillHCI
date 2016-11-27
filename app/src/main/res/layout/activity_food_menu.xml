@@ -22,7 +22,8 @@
         android:id="@+id/mainMealText"
         android:textStyle="normal|bold"
         android:textAllCaps="false"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="#000000" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -44,7 +45,8 @@
         android:layout_marginTop="54dp"
         android:id="@+id/sidesText"
         android:textStyle="normal|bold"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:textColor="#000000" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -63,7 +65,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="51dp"
         android:textStyle="normal|bold"
-        android:id="@+id/drinksText" />
+        android:id="@+id/drinksText"
+        android:textColor="#000000" />
 
     <Spinner
         android:layout_width="wrap_content"

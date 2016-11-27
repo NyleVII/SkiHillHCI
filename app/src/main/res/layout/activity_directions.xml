@@ -20,7 +20,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/textView15"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <TextView
         android:text="University of Calgary, 2500 University Drive Northwest, Calgary, AB T2N 1N4"
@@ -29,7 +30,8 @@
         android:layout_below="@+id/textView15"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/locationTextView" />
+        android:id="@+id/locationTextView"
+        android:textColor="#000000" />
 
     <TextView
         android:text="Your Destination:"
@@ -39,7 +41,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/textView17"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <TextView
         android:text="Sunshine Village, 1 Sunshine access Rd, Banff, AB T1L 1J5"
@@ -48,7 +51,8 @@
         android:layout_below="@+id/textView17"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/destinationTextView" />
+        android:id="@+id/destinationTextView"
+        android:textColor="#000000" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -67,7 +71,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView18" />
+        android:id="@+id/textView18"
+        android:textColor="#000000" />
 
     <TextView
         android:text="Google Maps:"
@@ -78,7 +83,8 @@
         android:layout_below="@+id/destinationTextView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textColor="#000000" />
 
     <TextView
         android:text="- Follow Trans-Canada Hwy/AB-1 W to Range Rd 130A in Improvement District No. 9. Take the exit toward Sunshine from Trans-Canada Hwy/AB-1 W"
@@ -87,7 +93,8 @@
         android:layout_above="@+id/textView18"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView19" />
+        android:id="@+id/textView19"
+        android:textColor="#000000" />
 
     <TextView
         android:text="- Continue to 16 Ave NW/Trans-Canada Hwy/AB-1 W"
@@ -96,7 +103,8 @@
         android:layout_above="@+id/textView19"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView20" />
+        android:id="@+id/textView20"
+        android:textColor="?attr/tex#000000" />
 
     <TextView
         android:text="DIRECTIONS:"
@@ -106,7 +114,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/textView21"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:textColor="#000000" />
 
     <Button
         android:text="Open in Google Maps"
