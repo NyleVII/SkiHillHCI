@@ -65,43 +65,6 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:text="Good"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/mapBottom"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textView9"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:textColor="#00ff06"/>
-
-    <TextView
-        android:text="Hazards"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView30"
-        android:textSize="18sp"
-        android:textStyle="normal|bold"
-        android:layout_below="@+id/textView9"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp"
-        android:textColor="#fff600"/>
-
-    <TextView
-        android:text="Closed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/textView31"
-        android:textStyle="normal|bold"
-        android:textSize="18sp"
-        android:textColor="#aa0000"/>
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,5 +76,41 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="74dp"
         android:layout_marginStart="74dp" />
+
+    <TextView
+        android:text="Good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="#00ff06"
+        android:layout_below="@+id/mapBottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Hazards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView30"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="#fff600"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Closed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="#aa0000"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
