@@ -12,184 +12,274 @@
     tools:context="nylecpsc481.skihillhci.ChangeHillActivity">
 
     <TextView
-        android:text="Search Hills:"
+        android:text="159.0 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView13"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:id="@+id/textView44"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/sunshineButton"
+        android:layout_alignLeft="@+id/textView43"
+        android:layout_alignStart="@+id/textView43" />
+
+    <TextView
+        android:text="122.8 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView43"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/sunshineButton"
+        android:layout_alignRight="@+id/textView35"
+        android:layout_alignEnd="@+id/textView35" />
+
+    <TextView
+        android:text="8.4 km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView40"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/copDistance"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <SearchView
+        android:id="@+id/hillSearchBox"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:text="24hr Snow:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copDistance"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Canada Olympic Park"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/copButton"
+        android:layout_below="@+id/copDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:text="Hills near your location:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView14"
-        android:layout_below="@+id/hillSearchBox"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:textColor="#000000"/>
-
-    <SearchView
-        android:id="@+id/hillSearchBox"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_centerVertical="true"
-        android:layout_below="@+id/textView13"
+        android:textColor="#000000"
+        android:layout_below="@+id/hillSearchBox"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Canada Olympic Park"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView14"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/copButton" />
-
-    <TextView
-        android:text="8.4 km"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/copDistance"
-        android:layout_alignBaseline="@+id/copButton"
-        android:layout_alignBottom="@+id/copButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/copButton"
-        android:layout_toEndOf="@+id/copButton"
-        android:textAlignment="textEnd"
-        android:textSize="18sp"
-        android:textColor="#000000"
-        android:textStyle="normal|bold" />
 
     <TextView
         android:text="78.3 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/nakiskaDistance"
+        android:id="@+id/textView41"
         android:textAlignment="textEnd"
-        android:layout_alignBaseline="@+id/nakiskaButton"
-        android:layout_alignBottom="@+id/nakiskaButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
         android:textSize="18sp"
         android:textColor="#000000"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/copButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="113.3 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/norquayDistance"
-        android:layout_alignBaseline="@+id/norquayButton"
-        android:layout_alignBottom="@+id/norquayButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:id="@+id/textView42"
         android:textAlignment="textEnd"
         android:textSize="18sp"
         android:textColor="#000000"
-        android:textStyle="normal|bold" />
-
-    <Button
-        android:text="Lake Louise"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/sunshineButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/lakeLouiseButton" />
-
-    <TextView
-        android:text="159.0 km"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/lakeLouiseDistance"
-        android:layout_alignBaseline="@+id/lakeLouiseButton"
-        android:layout_alignBottom="@+id/lakeLouiseButton"
-        android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:layout_toRightOf="@+id/panoramaButton"
+        android:layout_alignTop="@+id/norquayButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#000000"
-        android:textAlignment="textEnd" />
-
-    <Button
-        android:text="Panorama Mountain Resort"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/lakeLouiseButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/panoramaButton" />
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="163.7 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/panoramaDistance"
-        android:layout_alignBaseline="@+id/panoramaButton"
-        android:layout_alignBottom="@+id/panoramaButton"
+        android:id="@+id/textView45"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:layout_toRightOf="@+id/panoramaButton"
         android:textAlignment="textEnd"
         android:textColor="#000000"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:text="Fernie Alpine Resort"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/panoramaButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/fernieButton" />
+        android:layout_alignTop="@+id/panoramaButton"
+        android:layout_alignRight="@+id/sunshineDistance"
+        android:layout_alignEnd="@+id/sunshineDistance" />
 
     <TextView
         android:text="299.0 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/fernieDistance"
-        android:layout_alignBaseline="@+id/fernieButton"
-        android:layout_alignBottom="@+id/fernieButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:id="@+id/textView46"
         android:textSize="18sp"
         android:textColor="#000000"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/panoramaButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <Button
-        android:text="Kimberley Alpine Resort"
+    <TextView
+        android:text="0 cm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/fernieButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:id="@+id/kimberleyButton" />
+        android:id="@+id/textView34"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="2cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nakiskaDistance"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="20 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/norquayDistance"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView42"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Distance:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/hillSearchBox"
+        android:layout_alignLeft="@+id/textView42"
+        android:layout_alignStart="@+id/textView42" />
+
+    <TextView
+        android:text="47 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sunshineDistance"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="17 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lakeLouiseDistance"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textColor="#000000"
+        android:textAlignment="textEnd"
+        android:layout_below="@+id/textView44"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="8 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/panoramaDistance"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:layout_below="@+id/textView45"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="18 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fernieDistance"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/textView46"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="10 cm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kimberleyDistance"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:text="387.0 km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/kimberleyDistance"
-        android:layout_alignBaseline="@+id/kimberleyButton"
-        android:layout_alignBottom="@+id/kimberleyButton"
+        android:id="@+id/textView47"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:layout_toRightOf="@+id/kimberleyButton"
         android:textAlignment="textEnd"
         android:textColor="#000000"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_above="@+id/kimberleyDistance"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44" />
+
+    <Button
+        android:text="Nakiska"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nakiskaButton"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="Mount Norquay"
@@ -201,35 +291,61 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Nakiska"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/nakiskaButton"
-        android:layout_below="@+id/copButton"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
         android:text="Sunshine Village"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sunshineButton"
-        android:layout_below="@+id/norquayButton"
+        android:onClick="mainMenu"
+        android:layout_below="@+id/norquayDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Lake Louise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lakeLouiseButton"
+        android:layout_below="@+id/sunshineDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Panorama Mountain Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/panoramaButton"
+        android:layout_below="@+id/lakeLouiseButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Fernie Alpine Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fernieButton"
+        android:layout_alignBottom="@+id/fernieDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Kimberley Alpine Resort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kimberleyButton"
+        android:layout_below="@+id/fernieButton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <TextView
-        android:text="122.8 km"
+        android:text="Search Hills:"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/sunshineDistance"
+        android:id="@+id/textView13"
         android:textSize="18sp"
         android:textStyle="normal|bold"
-        android:textAlignment="textEnd"
-        android:layout_alignBaseline="@+id/sunshineButton"
-        android:layout_alignBottom="@+id/sunshineButton"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
